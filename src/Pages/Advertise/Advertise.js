@@ -11,6 +11,7 @@ const Advertise = () => {
         </div>
 
         <div className="col-lg-6 col-md-6 col-12">
+          {/* image */}
           <img src={img2} className="img-fluid" />
         </div>
       </div>

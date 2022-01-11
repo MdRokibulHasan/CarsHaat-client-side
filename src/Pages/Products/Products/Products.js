@@ -18,7 +18,7 @@ const Products = () => {
 
             <div className="row">
 
-
+                {/* product list */}
                 {
                     values?.map(product => (<DisplayUserProduct
                         key={product._id}

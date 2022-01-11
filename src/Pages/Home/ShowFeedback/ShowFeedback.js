@@ -7,7 +7,7 @@ const ShowFeedback = () => {
         fetch('https://damp-coast-65795.herokuapp.com/reviews')
             .then(res => res.json())
             .then(data => setValues(data));
-        // test
+
     }, []);
 
 

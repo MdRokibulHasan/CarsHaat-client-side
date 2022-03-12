@@ -1,10 +1,11 @@
 import React from "react";
-
+import { HashLink as Link } from 'react-router-hash-link';
 import img1 from "../../../images/Jaguar2.jpg"
 import img2 from "../../../images/bmw.jpg"
 import img3 from "../../../images/rolls-royce.jpg"
 
 import './HomeBanner.css'
+// import { Link } from "react-router-dom";
 const HomeBanner = () => {
   return (
     <div>
@@ -46,11 +47,12 @@ const HomeBanner = () => {
               }}
               alt="..."
             />
-            <div className="carousel-caption d-flex align-items-center">
+            <div className="carousel-caption d-flex align-items-center justify-content-center">
               <div>
-                <h1 data-aos="fade-down" data-aos-delay="200">
+                <h1 data-aos="fade-down" data-aos-delay="200" style={{ color: "#42a5f5" }}>
                   {" "}
-                  ENJOY&IMPROVE YOUR SKILLS{" "}
+                  About Us
+                  {" "}
                 </h1>
 
                 <p
@@ -58,19 +60,19 @@ const HomeBanner = () => {
                   data-aos="fade-up"
                   data-aos-delay="220"
                 >
-                  Slider Revolution is the highly acclaimed slide-based
-                  displaying solution, thousands of businesses, theme developers
-                  and everyday people use and love!
+
                 </p>
 
                 <div>
-                  <button
-                    className="button-read-more"
-                    data-aos="fade-right"
-                    data-aos-delay="250"
-                  >
-                    Read More
-                  </button>
+                  <Link to="/about" href="#">
+                    <button
+                      className="button-read-more"
+                      data-aos="fade-right"
+                      data-aos-delay="250"
+                    >
+                      Read More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -85,29 +87,29 @@ const HomeBanner = () => {
               className="d-block w-100"
               alt="..."
             />
-            <div className="carousel-caption d-flex align-items-center">
+            <div className="carousel-caption d-flex align-items-center justify-content-center">
               <div>
-                <h1 data-aos="fade-down" data-aos-delay="200">
-                  ENJOY&SHARE YOUR SKILLS
+                <h1 data-aos="fade-down" data-aos-delay="200" style={{ color: "#42a5f5" }}>
+                  Our Best Product
                 </h1>
                 <p
                   className="text-white fs-5"
                   data-aos="fade-up"
                   data-aos-delay="220"
                 >
-                  Slider Revolution is the highly acclaimed slide-based
-                  displaying solution, thousands of businesses, theme developers
-                  and everyday people use and love!
+
                 </p>
 
                 <div>
-                  <button
-                    className="button-read-more"
-                    data-aos="fade-right"
-                    data-aos-delay="250"
-                  >
-                    Read More
-                  </button>
+                  <Link to="#" href="#">
+                    <button
+                      className="button-read-more"
+                      data-aos="fade-right"
+                      data-aos-delay="250"
+                    >
+                      Read More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -122,22 +124,23 @@ const HomeBanner = () => {
               className="d-block w-100"
               alt="..."
             />
-            <div className="carousel-caption d-flex align-items-center">
+            <div className="carousel-caption d-flex align-items-center justify-content-center">
               <div>
-                <h1>Are You Ready For Study ?</h1>
+                <h1 style={{ color: "#42a5f5" }}>Best Sells</h1>
                 <p className="text-white fs-5">
-                  Amar School is well Certify by any kiind of programming
-                  language and also any algorithms and Data Stracture .
+
                 </p>
 
                 <div>
-                  <button
-                    className="button-read-more"
-                    data-aos="fade-right"
-                    data-aos-delay="250"
-                  >
-                    Read More
-                  </button>
+                  <Link to="#" href="#">
+                    <button
+                      className="button-read-more"
+                      data-aos="fade-right"
+                      data-aos-delay="250"
+                    >
+                      Read More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

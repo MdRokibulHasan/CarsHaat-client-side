@@ -15,6 +15,8 @@ import BuyProducts from "./Pages/Products/BuyProducts/BuyProducts";
 import UserReview from "./Pages/Dashboard/UserReview/UserReview";
 import NotFound from "./NotFound/NotFound";
 import UserShowReview from "./Pages/Dashboard/UserShowReview/UserShowReview";
+import LatestNews from "./Pages/Home/LatestNews/LatestNews";
+import DisplayUserProduct from "./Pages/Products/DisplayUserProduct/DisplayUserProduct";
 
 
 
@@ -76,6 +78,12 @@ function App() {
           </Route>
           <Route path="*">
             <NotFound></NotFound>
+          </Route>
+          <Route path="/latestnews">
+            <LatestNews></LatestNews>
+          </Route>
+          <Route path="displayproduct">
+            <DisplayUserProduct></DisplayUserProduct>
           </Route>
         </Switch>
 

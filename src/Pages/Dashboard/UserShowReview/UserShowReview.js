@@ -10,13 +10,13 @@ const UserShowReview = () => {
     }, []);
 
     return (
-        <div className="container m-3">
+        <div className="container">
             <div className="row">
                 {
                     order?.map(pd => {
                         const { rating, sDescription, name } = pd
                         return (<div className="col-lg-4 col-md-4 col-12">
-                            <div class="card text-center">
+                            <div class="card text-center m-2" style={{ heigth: "20px" }}>
                                 <div class="card-body">
                                     <h4>
                                         <Rating

@@ -21,10 +21,11 @@
     /* background-color:none;  */
     background-color: transparent;
     color: rgb(255, 255, 255);
-    border: 2px solid #a12c2f;
+    /* border: 2px solid #a12c2f; */
   }
   
   .button-read-more:hover {
-    background-color: #a12c2f;
+    background-color: #42a5f5;
     color: white;
+    font-weight: bold;
   }

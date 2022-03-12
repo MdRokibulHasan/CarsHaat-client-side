@@ -21,7 +21,7 @@ const Home = () => {
             <HomeBanner></HomeBanner>
 
             <div className="container mt-3">
-                <h1 className="text-center">Our Service</h1>
+                <h1 className="text-center" style={{ color: "#42a5f5" }}>Our Service</h1>
                 <p className="text-center">We Provide our Best Service</p>
                 <div className="d-flex justify-content-around m-3 gx-3">
                     <div class="card text-center">
@@ -50,7 +50,7 @@ const Home = () => {
 
             </div>
             <div className="mt-3">
-                <h1 className="text-dark text-center">Our Best Product</h1>
+                <h1 className=" text-center" style={{ color: "#42a5f5" }}>Our Best Product</h1>
                 <p></p>
                 {
                     <div className="container pt-5">
@@ -73,7 +73,7 @@ const Home = () => {
 
             <LatestNews></LatestNews>
             <div>
-                <h1 className="text-dark text-center">Ours Costomer Feedback</h1>
+                <h1 className=" text-center" style={{ color: "#42a5f5" }}>Ours Costomer Feedback</h1>
                 <UserShowReview></UserShowReview>
             </div>
         </div>

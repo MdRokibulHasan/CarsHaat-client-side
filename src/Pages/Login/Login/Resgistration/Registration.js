@@ -32,7 +32,7 @@ const Registration = () => {
   return (
     <div className="container">
       <div className="d-flex justify-content-center ">
-        <div className="sign-in shadow-lg my-5  px-5" style={{ height: "400px" }}>
+        <div className="sign-in shadow-lg my-5  px-5" style={{ height: "420px" }}>
           <h3 className="text-center pt-5"> Rigister TO Car-Haat</h3>
           <hr className="w-75 ms-auto me-auto" />
           {!isLoading && <form onSubmit={handelloginSubmit}>

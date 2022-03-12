@@ -4,7 +4,7 @@ import img from '../../../images/rolls-royce.jpg'
 const LatestNews = () => {
   return (
     <div >
-      <h3 className="text-center mt-5"> Best Sell Our Products</h3>
+      <h3 className="text-center mt-5" style={{ color: "#42a5f5" }}> Best Sell Our Products</h3>
 
       <p className="text-center">We strive to get our best products to you</p>
       <div>

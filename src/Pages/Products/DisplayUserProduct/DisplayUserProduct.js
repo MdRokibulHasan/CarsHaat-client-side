@@ -13,7 +13,7 @@ const DisplayUserProduct = ({ product }) => {
     return (
 
         <div className="col-md-4">
-            <div className="card mt-3">
+            <div className="card mt-3" style={{ height: "500px" }}>
                 {/* display prdouct */}
                 <img src={thabnil} className="card-img-top" alt="..." />
                 <div className="card-body">
